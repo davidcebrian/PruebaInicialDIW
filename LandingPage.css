@@ -1,0 +1,46 @@
+body {
+    width: 100%;
+    background-image: url("Images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head {
+    border-radius: 20px;
+    width: 60%;
+    height: 60%;
+    color: blanchedalmond;
+    text-align: center;
+    background-color: black;
+    border: 2px solid chocolate;
+    margin: 20px;
+    padding: 20px;
+}
+
+.head input{
+    border-radius: 5px;
+}
+
+.logo {
+    border-radius: 20px;
+    position: relative;
+    float: right;
+    left: 17em;
+    bottom: 6em;
+    width: 90px;
+    height: 90px;
+}
+
+div.fotos {
+    position: relative;
+    align-self: center;
+    float: left;
+    border: 1px solid gray;
+    width: 300px;
+    height: 200px;
+    margin: 90px;
+}
+
+div.fotos:hover {
+    border: 1px solid chocolate;
+}
